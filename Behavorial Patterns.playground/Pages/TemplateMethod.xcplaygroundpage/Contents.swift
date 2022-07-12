@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 /*:
  
- ## Template Method
+ # Template Method
    Allows specific steps of an algorith to be replaced by the client without modifying the structure of the algorithm.
  
  ## What problems can the Template Method design pattern solve?

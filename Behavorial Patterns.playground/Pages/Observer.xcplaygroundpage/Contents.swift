@@ -1,7 +1,7 @@
 //: [Previous](@previous)
 /*:
  
- #Observer
+ # Observer
  
  Broadcast notifications to observers.
  
