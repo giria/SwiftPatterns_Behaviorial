@@ -20,6 +20,16 @@
  
  ![UML Icon](interpreter.png)
  
+ 
+ In the above UML class diagram, the Client class refers to the common AbstractExpression interface for interpreting an expression interpret(context).
+ The TerminalExpression class has no children and interprets an expression directly.
+ The NonTerminalExpression class maintains a container of child expressions (expressions) and forwards interpret requests to these expressions.
+
+ The object collaboration diagram shows the run-time interactions: The Client object sends an interpret request to the abstract syntax tree. The request is forwarded to (performed on) all objects downwards the tree structure.
+ The NonTerminalExpression objects (ntExpr1,ntExpr2) forward the request to their child expressions.
+ The TerminalExpression objects (tExpr1,tExpr2,…) perform the interpretation directly.
+ 
+ 
  */
 
 
