@@ -3,6 +3,8 @@
 /*:
  # Visitor Pattern
  
+   Adds common behaviour to unrelate types.
+ 
  ## What problems can the Visitor design pattern solve?
  
  - It should be possible to define a new operation for (some) classes of an object structure without changing the classes.
